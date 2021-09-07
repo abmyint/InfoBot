@@ -1,1 +1,1 @@
-web: sh setup.sh && telegrambot run main.py
+worker: python3 main.py
