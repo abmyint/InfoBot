@@ -1,9 +1,9 @@
 import telebot
 import pyowm
 from config import BOT_TOKEN, OWM_TOKEN
-from weather import get_forecast
-from billboard_hit import get_song
-from news import get_article
+from util.weather import get_forecast
+from util.billboard_hit import get_song
+from util.news import get_article
 
 
 bot = telebot.TeleBot(BOT_TOKEN)
