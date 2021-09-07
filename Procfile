@@ -1,1 +1,1 @@
-web: sh setup.sh && telegrambot run penguins-app.py
+web: sh setup.sh && telegrambot run main.py
